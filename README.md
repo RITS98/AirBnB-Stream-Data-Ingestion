@@ -9,6 +9,20 @@ Build a simulated data pipeline for Airbnb booking data that integrates various 
   5. Python
   6. Git
 
+The pipeline consists of three key Lambda functions:
+
+- Producer Lambda Function:
+  - Responsible for generating and sending streaming data to a designated AWS service like Kinesis.
+
+- Enrichment Lambda Function:
+  -  Processes incoming data to add additional information, perform transformations, or apply filtering.
+
+-  Consumer Lambda Function:
+  -  Consumes enriched data, storing it in a database or forwarding it for further analysis or visualization.
+
+![image](https://github.com/user-attachments/assets/f33de640-8d0f-4004-9f77-2fd418abeddd)
+
+
 ## Steps
   1. Create a SQS service
      ![image](https://github.com/RITS98/AirBnB-Stream-Data-Ingestion/assets/51791113/2057ad03-47a1-4264-995b-4a3449694fe3)
